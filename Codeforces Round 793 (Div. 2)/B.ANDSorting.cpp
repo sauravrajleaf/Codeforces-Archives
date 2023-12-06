@@ -3,6 +3,7 @@
 // Time Complexity - O(N)
 // Space Compledxity - O(1)
 
+// Intuition needs more work. Understood part written in hardcopy notes.
 
 #include<bits/stdc++.h>
 
