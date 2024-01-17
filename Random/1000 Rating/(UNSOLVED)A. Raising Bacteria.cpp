@@ -1,3 +1,7 @@
+// Problem Link - https://codeforces.com/problemset/problem/579/A
+
+
+//BIT MANIPULATION
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -12,7 +16,7 @@ int main() {
     last = cnt;
     cnt = cnt * 2;
   }
-  cout << "cnt " << cnt << " last " << last << endl;
+  // cout << "cnt " << cnt << " last " << last << endl;
   if(cnt == n) cout << 1 << endl;
   else cout << (n - last) + 1 << endl;
 }
